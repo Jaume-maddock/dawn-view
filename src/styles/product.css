@@ -30,6 +30,10 @@
     background-color: rgba(255, 255, 255, .1);
     border-radius: 5px;
   }
+
+  .bg-grey {
+    background-color: #f8f9fa;
+  }
   
   .product-device-2 {
     top: -25%;
