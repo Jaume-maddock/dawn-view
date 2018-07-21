@@ -8,11 +8,16 @@
     backdrop-filter: saturate(180%) blur(20px);
   }
   .site-header a {
-    color: #fbf866;
+    /*color: #fbf866;*/
+    color:white;
     transition: ease-in-out color .15s;
     /*font-weight: bold;*/
   }
   .site-header a:hover {
     color: #fff;
     text-decoration: none;
+  }
+
+  .site-footer {
+    background-color: rgba(0, 0, 0, .85);
   }
