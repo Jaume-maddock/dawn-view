@@ -31,6 +31,16 @@
 </head>
 
 <body>
+    <!-- Cookies message -->
+  <div class="event-hide-cookiemessage alert alert-dismissible text-center cookiealert" role="alert">
+    <div class="cookiealert-container">
+      <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.
+      <a href="http://cookiesandyou.com/" target="_blank">Learn more</a>
+      <button type="button" class="btn btn-primary btn-sm event-accept-cookies" aria-label="Close">
+        I agree
+      </button>
+    </div>
+  </div>
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9J6B99" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -165,6 +175,7 @@
   <script src="../../assets/js/vendor/popper.min.js"></script>
   <script src="../../dist/js/bootstrap.min.js"></script>
   <script src="../../assets/js/vendor/holder.min.js"></script>
+  <script src="assets/js/custom/cookies.js"></script>
   <script>
     Holder.addTheme('thumb', {
       bg: '#55595c',
